@@ -56,11 +56,6 @@ a {
 	border:0;
 	outline:0;
 	text-decoration:none;
-	-webkit-transition: all 0.3s linear;
-	-moz-transition: all 0.3s linear;
-	-o-transition: all 0.3s linear;
-	-ms-transition: all 0.3s linear;
-	transition: all 0.3s linear;
 }
 #home {
 	width:100%;
@@ -125,34 +120,27 @@ ul.social li{
   margin: 0 4px;
   float: left;
   padding: 0px;
-  background-position: 0 0;
-  background-size:100% 100%;
+  background-image: url('img/sprite.png');
   background-repeat: no-repeat;
   cursor: pointer;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 }
 ul.social li a {margin: 0px; display: block; width: 100%; height: 100%;}
 
-ul.social li.email { background-image: url('img/emaild.png'); }
-ul.social li.twitter { background-image: url('img/twitterd.png'); }
-ul.social li.instagram { background-image: url('img/instagramd.png'); }
-ul.social li.facebook { background-image: url('img/facebookd.png'); }
-ul.social li.tumblr { background-image: url('img/tumblrd.png'); }
-ul.social li.github { background-image: url('img/githubd.png'); }
-ul.social li.linkedin { background-image: url('img/ind.png'); }
+ul.social li.email { background-position: 0px 0px; }
+ul.social li.twitter { background-position: 0px -42px; }
+ul.social li.instagram { background-position: 0px -84px; }
+ul.social li.facebook { background-position: 0px -126px; }
+ul.social li.tumblr { background-position: 0px -168px; }
+ul.social li.github { background-position: 0px -210px; }
+ul.social li.linkedin { background-position: 0px -252px; }
 
-ul.social li.email:hover { background-image: url('img/emailw.png'); }
-ul.social li.twitter:hover { background-image: url('img/twitterw.png'); }
-ul.social li.instagram:hover { background-image: url('img/instagramw.png'); }
-ul.social li.facebook:hover { background-image: url('img/facebookw.png'); }
-ul.social li.tumblr:hover { background-image: url('img/tumblrw.png'); }
-ul.social li.github:hover { background-image: url('img/githubw.png'); }
-ul.social li.linkedin:hover { background-image: url('img/inw.png'); }
+ul.social li.email:hover { background-position: -42px 0px; }
+ul.social li.twitter:hover { background-position: -42px -42px; }
+ul.social li.instagram:hover { background-position: -42px -84px; }
+ul.social li.facebook:hover { background-position: -42px -126px; }
+ul.social li.tumblr:hover { background-position: -42px -168px; }
+ul.social li.github:hover { background-position: -42px -210px; }
+ul.social li.linkedin:hover { background-position: -42px -252px; }
 
 
 
