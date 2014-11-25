@@ -82,15 +82,16 @@ a {
 	margin-bottom:0.8em;
 }
 .location {
-	background-position:center left;
 	color:#b9b9b9;
 	font-size:12px;
 	width:170px;
+  height:25px;
 	padding-left:25px;
 	margin:1em auto 1em;
-	height:25px;
 	line-height:25px;
-  background-image: url('img/location.png');
+  background: url('img/icons.png');
+  background-image: url('img/icons.svg');
+  background-position: -36px -2px;
   background-repeat:no-repeat;
 }
 
@@ -115,35 +116,32 @@ ul.social{
   overflow:hidden;
 }
 ul.social li{
-  width:42px;
-  height:42px;
+  width: 42px;
+  height: 43px;
   margin: 0 4px;
   float: left;
   padding: 0px;
-  background-image: url('img/sprite.png');
+  background: url(img/icons.png);
+  background-image: url(img/icons.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }
 ul.social li a {margin: 0px; display: block; width: 100%; height: 100%;}
 
-ul.social li.email { background-position: 0px 0px; }
-ul.social li.twitter { background-position: 0px -42px; }
-ul.social li.instagram { background-position: 0px -84px; }
-ul.social li.facebook { background-position: 0px -126px; }
-ul.social li.tumblr { background-position: 0px -168px; }
-ul.social li.github { background-position: 0px -210px; }
-ul.social li.linkedin { background-position: 0px -252px; }
-
-ul.social li.email:hover { background-position: -42px 0px; }
-ul.social li.twitter:hover { background-position: -42px -42px; }
-ul.social li.instagram:hover { background-position: -42px -84px; }
-ul.social li.facebook:hover { background-position: -42px -126px; }
-ul.social li.tumblr:hover { background-position: -42px -168px; }
-ul.social li.github:hover { background-position: -42px -210px; }
-ul.social li.linkedin:hover { background-position: -42px -252px; }
-
-
-
+ul.social li.linkedin:hover { background-position: -47px -309px; }
+ul.social li.linkedin { background-position: 0px -309px; }
+ul.social li.github:hover { background-position: -47px -262px; }
+ul.social li.github { background-position: 0px -262px; }
+ul.social li.tumblr:hover { background-position: -47px -215px; }
+ul.social li.tumblr { background-position: 0px -215px; }
+ul.social li.facebook:hover { background-position: -47px -168px; }
+ul.social li.facebook { background-position: 0px -168px; }
+ul.social li.instagram:hover { background-position: -47px -121px; }
+ul.social li.instagram { background-position: 0px -121px; }
+ul.social li.twitter:hover { background-position: -47px -74px; }
+ul.social li.twitter { background-position: 0px -74px; }
+ul.social li.email:hover { background-position: -47px -27px; }
+ul.social li.email { background-position: 0px -27px; }
 
 
 @-webkit-keyframes fadeInDown {
