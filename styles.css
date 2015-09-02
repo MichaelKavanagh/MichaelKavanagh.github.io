@@ -81,6 +81,12 @@ a {
 	color:#b9b9b9;
 	margin-bottom:0.8em;
 }
+.ido a, a:visited {
+  color:#b9b9b9;
+}
+.ido a:hover {
+  text-decoration:underline;
+}
 .location {
 	color:#b9b9b9;
 	font-size:12px;
